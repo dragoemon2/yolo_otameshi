@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['red_ball']
+nc: 2
+names: ['purple_ball', 'red_ball']
 
 roboflow:
   workspace: keio-robotics-association
   project: abu_robocon_2024_otameshi
-  version: 1
+  version: 4
   license: CC BY 4.0
-  url: https://universe.roboflow.com/keio-robotics-association/abu_robocon_2024_otameshi/dataset/1
+  url: https://universe.roboflow.com/keio-robotics-association/abu_robocon_2024_otameshi/dataset/4
