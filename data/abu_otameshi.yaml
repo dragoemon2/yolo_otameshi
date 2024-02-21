@@ -2,8 +2,8 @@ train: ../datasets/abu_otameshi/train/images
 val: ../datasets/abu_otameshi/valid/images
 test: ../datasets/abu_otameshi/test/images
 
-nc: 2 # number of classes
-names: ['red_ball', 'purple_ball']
+nc: 3 # number of classes
+names: ['red_ball', 'purple_ball', 'blue_ball']
 
 roboflow:
   workspace: keio-robotics-association
