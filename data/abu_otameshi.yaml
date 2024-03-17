@@ -3,7 +3,7 @@ val: ../datasets/abu_otameshi/valid/images
 test: ../datasets/abu_otameshi/test/images
 
 nc: 3 # number of classes
-names: ['red_ball', 'purple_ball', 'blue_ball']
+names: ['blue_ball', 'purple_ball', 'red_ball']
 
 roboflow:
   workspace: keio-robotics-association
